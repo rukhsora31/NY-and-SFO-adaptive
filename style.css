@@ -1,0 +1,67 @@
+section{
+    display: flex;
+    justify-content: space-around;
+
+    @media (max-width: 500px) {
+        
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        
+     }
+}
+
+.wrap1{
+    border: 3px solid palevioletred;
+    width: 350px;
+
+   
+}
+.wrap2{
+    border: 3px solid palevioletred;
+    width: 350px;
+}
+h1{
+    text-align: center;
+}
+.dd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+ text-align: center;
+ margin-bottom: 10px;
+ 
+}
+.NY{
+    width: 350px;
+}
+.bridge{
+    width: 350px;
+}
+.ip{
+    display: flex;
+    gap: 2px;
+    align-items:center ;
+    
+}
+.k{
+    width: 30px;
+    height: 30px;
+}
+.s{
+    width: 20px;
+    height: 20px;
+}
+.ks{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
